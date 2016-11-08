@@ -7,11 +7,10 @@
  * En plus, j'essaye de rajouter par un autre return de f() la valeur contenue
  * dans  case gagnante.*/
  
- 20161102: le code fonctionne mais mal; j'ai la console, je pose mes valeurs,
- 7,8,9,4,5,6,11,2,3,95, je définis min=10 et MAX=15; il devrait donc me dire:
-   cout<<"Il existe une valeur dans la fourchette que tu as fixée. "<<endl;
-   cout<<"la case contenant cette valeur dans la fourchette fixée est la "<<6 ou 7<<"ième"
-   et il me répond bêtement:
-   else cout<<"Pas de valeurs dans la fourchette que tu as fixée. "<<endl;
-   Du coup, je garde en commentaire mon rajout (avec un return en plus) pour 
-   plus tard...
+/* 20161108: le code fonctionne mais mal; Bizarre! il me demande deux fois les valeurs
+ *min et MAX: il dit qu'il existe une valeur dans la fourchette fixée, enfin!! L'ennui
+ * c'est qu'il qu'il me dit que la case est la 0°ième alors que c'était la case 3; puis
+ * il dit que sa valeur était 0 alors que j'avais mis dans cette case 3 la valeur 7 
+ * (fourchette entre 5 et 10). Un autre essai et là, j'ai mis 25 en case 9 et une 
+ * fourchette 20-30 et il m'envoie:Pas de valeurs dans la fourchette... zut! c'est pas
+ * au point mon truc!  */
